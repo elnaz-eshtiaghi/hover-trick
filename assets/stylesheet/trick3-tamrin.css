@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(36, 36, 36);
+  width: 100%;
+  height: 100vh;
+}
+main > section {
+  width: 77%;
+  height: 600px;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+main > section > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+main > section > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > section .container {
+  display: flex;
+}
+main > section .container > div {
+  width: 5%;
+  height: 100%;
+  background-image: url(../img/snowflakes-white-surface.webp);
+  opacity: 0;
+  transition: 3s ease-in-out;
+}
+main > section .container > div:nth-of-type(1) {
+  background-position-x: 0;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(2) {
+  background-position-x: 5.2%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(3) {
+  background-position-x: 10.4%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(4) {
+  background-position-x: 15.6%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(5) {
+  background-position-x: 20.8%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(6) {
+  background-position-x: 26%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(7) {
+  background-position-x: 31.2%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(8) {
+  background-position-x: 36.4%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(9) {
+  background-position-x: 41.6%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(10) {
+  background-position-x: 46.8%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(11) {
+  background-position-x: 52%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(12) {
+  background-position-x: 57.2%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(13) {
+  background-position-x: 62.4%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(14) {
+  background-position-x: 67.6%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(15) {
+  background-position-x: 72.8%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(16) {
+  background-position-x: 78%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(17) {
+  background-position-x: 83.2%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(18) {
+  background-position-x: 88.4%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(19) {
+  background-position-x: 93.6%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:nth-of-type(20) {
+  background-position-x: 98.8%;
+  background-size: cover;
+  border-left: 1px solid rgba(255, 255, 255, 0.0156862745);
+}
+main > section .container > div:hover {
+  opacity: 1;
+  transition: 0s;
+}/*# sourceMappingURL=trick3-tamrin.css.map */
